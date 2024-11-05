@@ -1,4 +1,3 @@
-height = int(input('Height : '))
+height = int(input('Height :'))
 for i in range(1,height):
-    print(' '*(height-i)+'*'*(2*i-1))
-
+    print(str(' '*(height-i)+'*'*(2*i-1)))
